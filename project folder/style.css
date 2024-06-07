@@ -1,0 +1,107 @@
+body{
+    background-color:#b3d0d1;
+   
+}
+header{
+    font-family:"Times New Roman", Times,serif;
+    padding:1px;
+    font-size:21px;
+    text-align:center;
+    border-bottom: solid 5px;
+    border-color:#7A1800;
+}
+div {
+   display:flex;
+   justify-content:center;
+   border-bottom: solid 5px ;
+   padding:10px;
+   border-color:#1b5f1f;
+   vertical-align:top;
+}
+.chirstmas:hover {
+    animation:chirstmas 2s forwards;
+}
+@keyframes chirstmas {
+    from{
+        filter:brightness(25%);
+    }
+    to{
+        filter:brightness(100%);
+    }
+}
+
+img{
+     width:260px;
+     float:right;
+}
+a {
+    color:#7284a1;
+    font-size:17px;
+    background-color:white;
+}
+.traffic{
+    padding:1px;
+     border:solid;
+     color:#1c1f87;
+     border-radius:15px;
+}
+.words {
+    color:black;
+    border:solid;
+    border-color:#871c27;
+   padding:2px;
+   border-radius:15px;
+   background-color:#e9d8d8;
+}
+.sad:hover{
+    animation:sad 5s forwards;
+}
+@keyframes sad {
+    from {
+        filter:grayscale(0%);
+    }
+    to {
+        filter:grayscale(100%);
+    }
+}
+.sad{
+    border:solid;
+    color:#1c1f87;
+    border-radius:15px;
+}
+.wait {
+    animation: wait 9s forwards;
+}
+@keyframes wait {
+    from{
+        color:black;
+    }
+    to{
+        color:#695ea1;
+    }
+}
+#tree {
+    height:250px;
+}
+.ugly{
+    animation: ugly 9s forwards;
+}
+@keyframes ugly {
+    from{
+        color:black;
+    }
+    to{
+        color:#cb1515;
+    }
+}
+h4 {
+    margin:auto;
+    float:right;
+}
+p::first-letter{
+    font-family:"garamond",serif;
+    font-size:25px;
+}
+.cool {
+    text-align: center;
+}
